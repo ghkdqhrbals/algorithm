@@ -22,7 +22,7 @@ def solution(N, number):
             answer = i
             break
         dp.append(all_case)
-        print(i, dp)
+        print(i, dp[i-1])
 
     return answer
 
